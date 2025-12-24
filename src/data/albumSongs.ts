@@ -73,7 +73,7 @@ export const albums: Album[] = [
   },
   {
     id: "zabloudilov",
-    title: "Demo u Zablúdilov",
+    title: "Demo u Zabloudilov",
     tracks: [
       { id: "zab-side-a", title: "Strana A", audioUrl: zabloudilovSideA },
       { id: "zab-side-b", title: "Strana B", audioUrl: zabloudilovSideB },
