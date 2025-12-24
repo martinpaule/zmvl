@@ -9,7 +9,6 @@ import klacno1991 from "@/assets/klacno-1991.jpg";
 import povazskaBystrica from "@/assets/povazska-bystrica.jpg";
 
 // Import Prerov concert photos
-import prerov02 from "@/assets/prerov-02.jpg";
 import prerov03 from "@/assets/prerov-03.jpg";
 import prerov06 from "@/assets/prerov-06.jpg";
 import prerov07 from "@/assets/prerov-07.jpg";
@@ -73,7 +72,6 @@ const galleryData: Record<GalleryCategory, GalleryItem[]> = {
     { id: "pod-mostom", src: podMostom, alt: "Pod Mostom / Under The Bridge", caption: "Pod Mostom / Under The Bridge" },
     { id: "klacno-1991", src: klacno1991, alt: "Klačno 1991", caption: "Čierni Spolu / Black Together" },
     { id: "povazska-bystrica", src: povazskaBystrica, alt: "Považská Bystrica", caption: "Považská Bystrica" },
-    { id: "prerov-2", src: prerov02, alt: "Prerov koncert 2", caption: "Prerov" },
     { id: "prerov-3", src: prerov03, alt: "Prerov koncert 3", caption: "Prerov" },
     { id: "prerov-6", src: prerov06, alt: "Prerov koncert 6", caption: "Prerov" },
     { id: "prerov-7", src: prerov07, alt: "Prerov koncert 7", caption: "Prerov" },
