@@ -36,7 +36,6 @@ import article02 from "@/assets/article-02.jpg";
 import poster01 from "@/assets/poster-01.jpg";
 import poster02 from "@/assets/poster-02.jpg";
 import poster03 from "@/assets/poster-03.jpg";
-import poster04 from "@/assets/poster-04.jpg";
 import poster05 from "@/assets/poster-05.jpg";
 import poster06 from "@/assets/poster-06.jpg";
 import poster07 from "@/assets/poster-07.jpg";
@@ -45,15 +44,10 @@ import poster09 from "@/assets/poster-09.jpg";
 import poster10 from "@/assets/poster-10.jpg";
 import poster11 from "@/assets/poster-11.jpg";
 import poster12 from "@/assets/poster-12.jpg";
-import poster13 from "@/assets/poster-13.jpg";
 import poster14 from "@/assets/poster-14.jpg";
-import poster15 from "@/assets/poster-15.jpg";
-import poster16 from "@/assets/poster-16.jpg";
 import poster17 from "@/assets/poster-17.jpg";
-import poster18 from "@/assets/poster-18.jpg";
 import poster19 from "@/assets/poster-19.jpg";
 import poster20 from "@/assets/poster-20.jpg";
-import poster21 from "@/assets/poster-21.jpg";
 import poster22 from "@/assets/poster-22.jpg";
 import poster23 from "@/assets/poster-23.jpg";
 import poster24 from "@/assets/poster-24.jpg";
@@ -95,7 +89,6 @@ const galleryData: Record<GalleryCategory, GalleryItem[]> = {
     { id: "poster-1", src: poster01, alt: "Club dB Maximal Prievidza", caption: "9.6.1993 - Prievidza" },
     { id: "poster-2", src: poster02, alt: "Archbishop Kebab, Leukémia, Trottel + ZMVL", caption: "16.10.1993 - Přerov-Kozlovice" },
     { id: "poster-3", src: poster03, alt: "Slovenské Alternatívne Leto", caption: "21-23.7.1995 - Bzovík" },
-    { id: "poster-4", src: poster04, alt: "Rock Fabrik - ZMVL Industrial Rock", caption: "25.4.1992 - Bratislava" },
     { id: "poster-5", src: poster05, alt: "Rock Fabrik August Program", caption: "August 1992 - Bratislava" },
     { id: "poster-6", src: poster06, alt: "Koncert Trenčianske Teplice", caption: "3.6.1994 - Trenčianske Teplice" },
     { id: "poster-7", src: poster07, alt: "Havlíček & Magnusek + ZMVL", caption: "13.5.1994 - Prievidza Kazačok" },
@@ -104,15 +97,10 @@ const galleryData: Record<GalleryCategory, GalleryItem[]> = {
     { id: "poster-10", src: poster10, alt: "ZMVL tričko Barbakán", caption: "13.9.1992 - Banská Bystrica" },
     { id: "poster-11", src: poster11, alt: "Underplunder T.H.Cultur Festival", caption: "25.8-3.9.1995 - Brno" },
     { id: "poster-12", src: poster12, alt: "Hlodanie '93", caption: "16.7.1993 - Považská Bystrica" },
-    { id: "poster-13", src: poster13, alt: "Archbishop Kebab + ZMVL", caption: "16.10.1993 - Přerov-Kozlovice" },
     { id: "poster-14", src: poster14, alt: "OK Klub Duben '94", caption: "22.4.1994 - Přerov" },
-    { id: "poster-15", src: poster15, alt: "Havlíček & Magnusek + ZMVL", caption: "13.5.1994 - Prievidza Kazačok" },
-    { id: "poster-16", src: poster16, alt: "Koncert Trenčianske Teplice Baračka", caption: "3.6.1994 - Trenčianske Teplice" },
     { id: "poster-17", src: poster17, alt: "Snake Klub Leden 1995", caption: "29.1.1995 - Olomouc" },
-    { id: "poster-18", src: poster18, alt: "Slovenské Alternatívne Leto", caption: "21-23.7.1995 - Bzovík" },
     { id: "poster-19", src: poster19, alt: "Slovenské Alternatívne Leto", caption: "21-23.7.1995 - Bzovík" },
     { id: "poster-20", src: poster20, alt: "Underplunder T.H.Cultur Festival", caption: "25.8-3.9.1995 - Brno" },
-    { id: "poster-21", src: poster21, alt: "Zelený týždeň v Plynárni", caption: "27.4.1996 - Dubnica nad Váhom" },
     { id: "poster-22", src: poster22, alt: "Frog Jam 98 - CO Kryt", caption: "19.9.1998 - Trenčín" },
     { id: "poster-23", src: poster23, alt: "Pesničky - Paľby - Meditácie", caption: "ZMVL koncertný plagát" },
     { id: "poster-24", src: poster24, alt: "Zožer Mesiac v Lufte - kresba Mišo", caption: "ZMVL kresba" },
