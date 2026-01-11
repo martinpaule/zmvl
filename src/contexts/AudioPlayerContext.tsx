@@ -1,9 +1,10 @@
 import React, { createContext, useContext, useState, useRef, useCallback, useEffect } from "react";
 import { Track, allTracks } from "@/data/albumSongs";
 import { allJamTracks } from "@/data/jamSongs";
+import { allConcertTracks } from "@/data/concertSongs";
 
-// Combined all tracks from both albums and jams
-const combinedAllTracks = [...allTracks, ...allJamTracks];
+// Combined all tracks from both albums, jams, and concerts
+const combinedAllTracks = [...allTracks, ...allJamTracks, ...allConcertTracks];
 
 interface AudioPlayerContextType {
   currentTrack: Track | null;

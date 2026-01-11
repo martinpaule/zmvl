@@ -17,6 +17,7 @@ import { Play, Pause, SkipBack, SkipForward, Volume2, VolumeX, Shuffle, ArrowRig
 import { Slider } from "@/components/ui/slider";
 import { getAlbumByTrackId } from "@/data/albumSongs";
 import { getJamAlbumByTrackId } from "@/data/jamSongs";
+import { getConcertAlbumByTrackId } from "@/data/concertSongs";
 import {
   Select,
   SelectContent,
@@ -68,7 +69,7 @@ export function AudioPlayer() {
   // Get album name for current track
   const currentAlbumName = useMemo(() => {
     if (!currentTrack) return null;
-    const album = getAlbumByTrackId(currentTrack.id) || getJamAlbumByTrackId(currentTrack.id);
+    const album = getAlbumByTrackId(currentTrack.id) || getJamAlbumByTrackId(currentTrack.id) || getConcertAlbumByTrackId(currentTrack.id);
     return album?.title || null;
   }, [currentTrack]);
 

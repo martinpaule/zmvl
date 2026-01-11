@@ -3,6 +3,7 @@ import { useAudioPlayer } from "@/contexts/AudioPlayerContext";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { albums, Track, Album } from "@/data/albumSongs";
 import { jamAlbums } from "@/data/jamSongs";
+import { concertAlbums } from "@/data/concertSongs";
 import { ChevronDown, ChevronRight, Play, Disc } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 
@@ -169,6 +170,7 @@ export function AlbumTrackList() {
   const [openAlbums, setOpenAlbums] = useState<string[]>([]);
   const [recordingsExpanded, setRecordingsExpanded] = useState(true);
   const [jamsExpanded, setJamsExpanded] = useState(true);
+  const[concertsExpanded, setConcertsExpanded] = useState(true);
 
   const toggleAlbum = (albumId: string) => {
     setOpenAlbums((prev) =>
@@ -196,6 +198,15 @@ export function AlbumTrackList() {
         onToggleAlbum={toggleAlbum}
         isExpanded={jamsExpanded}
         onToggleExpanded={() => setJamsExpanded(!jamsExpanded)}
+      />
+
+      <CategorySection
+        title={t("concerts")}
+        albumList={concertAlbums}
+        openAlbums={openAlbums}
+        onToggleAlbum={toggleAlbum}
+        isExpanded={concertsExpanded}
+        onToggleExpanded={() => setConcertsExpanded(!concertsExpanded)}
       />
     </div>
   );
